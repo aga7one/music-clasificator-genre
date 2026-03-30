@@ -49,7 +49,6 @@ La versión inicial del proyecto contaba con:
 - NumPy
 - scikit-learn
 
-> Nota: No se requiere `librosa`, ya que se utilizan archivos de características preprocesadas.
 
 ---
 
@@ -58,7 +57,7 @@ La versión inicial del proyecto contaba con:
 ```text
 project/
 │
-├─ dataset/                # Carpeta con subcarpetas de géneros y archivos de características
+├─ genres/                # Carpeta con subcarpetas de géneros y archivos de características
 │   ├─ rock/
 │   │   ├─ rock.00001.npy
 │   │   ├─ rock.00002.npy

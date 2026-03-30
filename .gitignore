@@ -1,0 +1,83 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# =========================
+# Entornos virtuales
+# =========================
+venv/
+env/
+ENV/
+.venv/
+
+# =========================
+# Jupyter / Colab
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Archivos de sistema
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Modelos entrenados
+# =========================
+*.keras
+*.pt
+*.pth
+*.ckpt
+
+# =========================
+# Datos (MUY IMPORTANTE)
+# =========================
+dataset/
+data/
+genres/
+*.zip
+*.tar.gz
+
+# =========================
+# Archivos de características
+# =========================
+*.npy
+*.npz
+
+# =========================
+# Archivos temporales
+# =========================
+tmp/
+temp/
+*.tmp
+
+# =========================
+# Configuración IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Archivos de Google Colab
+# =========================
+/content/
+
+# =========================
+# Variables de entorno
+# =========================
+.env

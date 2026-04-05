@@ -5,6 +5,12 @@ Este proyecto implementa un **clasificador de géneros musicales** basado en red
 
 El sistema permite entrenar, evaluar y predecir géneros musicales de manera robusta, evitando errores por archivos de metadata o longitudes inconsistentes.
 
+```
+pyenv local 3.12.2
+python -m venv .venv
+source .venv/bin/activate
+
+```
 ---
 
 ## Estado inicial
